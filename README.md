@@ -28,3 +28,6 @@
 - **val.py** used to achieve evaluate method.
 - **test.py** used to test trained-DeiT
 - **options.py** used to give parameters to other files
+- folder **models** used to save DeiT models
+- folder **plants** used to save dataset
+- folder **results** used to save your training models
