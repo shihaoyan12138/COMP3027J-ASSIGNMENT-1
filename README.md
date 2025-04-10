@@ -19,7 +19,7 @@
 | Small-flowered Cranesbill   | 0.98      | 0.97   | 0.97     | 60      |
 | Sugar beet                  | 0.98      | 1.00   | 0.99     | 58      |
 ## 🧠 Overall Metrics
-- **Accuracy**: 0.97  
+- **Accuracy**: 0.97 (with data argumentation)
 - **Macro Average**: Precision: 0.97, Recall: 0.97, F1-Score: 0.97  
 - **Weighted Average**: Precision: 0.97, Recall: 0.97, F1-Score: 0.97
 ## 📌 Notes
