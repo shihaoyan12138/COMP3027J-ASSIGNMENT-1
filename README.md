@@ -4,8 +4,6 @@
 ## Author: Haoyan Shi
 ## Dataset: https://vision.eng.au.dk/plant-seedlings-dataset
 ## 📊 Result:
----
-
 | Class                        | Precision | Recall | F1-Score | Support |
 |-----------------------------|-----------|--------|----------|---------|
 | Black-grass                 | 0.85      | 0.93   | 0.89     | 56      |
@@ -20,25 +18,13 @@
 | Shepherds Purse             | 1.00      | 0.98   | 0.99     | 48      |
 | Small-flowered Cranesbill   | 0.98      | 0.97   | 0.97     | 60      |
 | Sugar beet                  | 0.98      | 1.00   | 0.99     | 58      |
-
----
-## Overall Metrics
-
+## 🧠 Overall Metrics
 - **Accuracy**: 0.97  
 - **Macro Average**: Precision: 0.97, Recall: 0.97, F1-Score: 0.97  
 - **Weighted Average**: Precision: 0.97, Recall: 0.97, F1-Score: 0.97
-
----
-
-## 🧠 Model Info
-
-> _Details about the model architecture, training strategy, dataset, and preprocessing steps can be added here if needed._
-
----
-
 ## 📌 Notes
-- pre-train.py used to train teacher models.
-- train.py used to train DeiT models.
-- val.py used to achieve evaluate method.
-- test.py used to test trained-DeiT
-- options.py used to give parameters to other files
+- **pre-train.py** used to train teacher models.
+- **train.py** used to train DeiT models.
+- **val.py** used to achieve evaluate method.
+- **test.py** used to test trained-DeiT
+- **options.py** used to give parameters to other files
