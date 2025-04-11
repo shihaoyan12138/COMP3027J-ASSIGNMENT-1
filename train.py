@@ -69,9 +69,9 @@ if __name__ == "__main__":
     val_loader = DataLoader(val_dataset, batch_size=args.bs, shuffle=False, pin_memory=True)
 
     # Load models
-    if args.pre_train_model == 'DEiT_tiny':
+    if args.model == 'DEiT_tiny':
         model = deit_tiny_patch16_224(pretrained=True)
-    elif args.pre_train_model == 'DEiT_base':
+    elif args.model == 'DEiT_base':
         model = deit_base_patch16_224(pretrained=True)
     else:
         raise ValueError('unknown model')
