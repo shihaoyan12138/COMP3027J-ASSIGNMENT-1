@@ -77,12 +77,14 @@ if __name__ == "__main__":
         raise ValueError('unknown model')
     if args.teacher_model == 'resnet34':
         teacher_model = m.resnet34()
-
+        print('teacher model is resnet-34')
     elif args.teacher_model == 'efficientnet_b0':
         teacher_model = m.efficientnet_b0()
+        print('teacher model is efficientnet_b0')
     else:
         raise ValueError('unknown teacher model')
-
+    teacher_model.load_state_dict(torch.load(args.teacher_path))
+    
     # Model initialization
     model.head = nn.Linear(model.head.in_features, args.num_classes)
     nn.init.xavier_uniform_(model.head.weight)
